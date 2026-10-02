@@ -1,0 +1,9 @@
+node_modules/
+
+db query.txt
+
+.env
+
+uploads/
+
+text.txt

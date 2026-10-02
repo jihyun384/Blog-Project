@@ -1,0 +1,50 @@
+#editor:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #2c2c2c;
+}
+
+#save-btn {
+    background-color: #fff;
+    border-color: #2c2c2c;
+    color: #2c2c2c;
+}
+
+#save-btn:hover {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+#complete-btn {
+    background-color: #2c2c2c;
+    border: #fff;
+}
+
+#complete-btn:hover {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #2c2c2c inset;
+    color: #2c2c2c;
+}
+
+#submit-btn {
+    background-color: #2c2c2c;
+    border: #fff;
+}
+
+#submit-btn:hover {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #2c2c2c inset;
+    color: #2c2c2c;
+}
+
+#editor {
+    padding: 16px 24px;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+}
+
+#editor img {
+    width: 400px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}

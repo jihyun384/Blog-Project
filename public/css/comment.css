@@ -1,0 +1,30 @@
+.comment {
+    margin-bottom: 1rem;
+}
+
+.comment .comment-content {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment .comment-actions {
+    font-size: 0.85rem;
+    margin-top: 0.3rem;
+}
+
+.replies {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+#comment-submit {
+    background-color: #2c2c2c;
+    border: none;
+}
+
+#comment-submit:hover {
+    background-color: #fff;
+    color: #2c2c2c;
+    box-shadow: 0 0 0 1px #2c2c2c inset;
+}

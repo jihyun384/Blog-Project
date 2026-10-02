@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="korean">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>bolg</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+        <link rel="stylesheet" href="../public/css/style.css" />
+        <link rel="stylesheet" href="../public/css/settings.css" />
+        <link rel="stylesheet" href="../public/css/font.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="../public/js/script.js"></script>
+        <script src="../public/js/settings.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="lh-1 py-3">
+                <div class="row flex-nowrap justify-content-between align-items-center">
+                    <div class="col-4 pt-1"><a class="link-secondary" href="#"></a></div>
+                    <div class="col-4 text-center">
+                        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="index.html"><b>Blog</b></a>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center"></div>
+                </div>
+            </header>
+        </div>
+
+        <div class="wrapper bg-white mt-sm-5">
+            <h4 class="pb-4 border-bottom">계정 설정</h4>
+            <div class="d-flex align-items-start py-3 border-bottom">
+                <img src="../public/assets/profile.png" class="profile-image" alt="" id="profileImage" />
+                <div id="img-section">
+                    <button id="changePhotoBtn" class="btn button border">사진 변경</button>
+                    <input type="file" id="profileFile" style="display: none" />
+                </div>
+            </div>
+            <div class="py-2">
+                <div class="row py-2">
+                    <div class="col-md-6">
+                        <label for="firstname">이름 수정하기</label>
+                        <input type="text" class="bg-light form-control" placeholder="이름" />
+                    </div>
+                    <div class="col-md-6 pt-md-0 pt-3">
+                        <label for="lastname">이메일 수정하기</label>
+                        <input type="text" class="bg-light form-control" placeholder="이메일" />
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-md-6">
+                        <label for="email">블로그 수정</label>
+                        <input type="text" class="bg-light form-control" placeholder="블로그 제목" />
+                    </div>
+                    <div class="col-md-6 pt-md-0 pt-3">
+                        <label for="phone"></label>
+                        <input type="tel" class="bg-light form-control" placeholder="블로그 설명" />
+                    </div>
+                </div>
+                <div class="py-3 pb-4 border-bottom">
+                    <button id="changeBtn" class="btn btn-primary mr-3">변경하기</button>
+                    <button id="cancelBtn" class="btn border button">취소</button>
+                </div>
+                <div class="d-sm-flex align-items-center pt-3" id="deactivate">
+                    <div class="ml-auto">
+                        <button id="logoutBtn" class="btn danger">로그아웃</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
